@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+.
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MCM_MangaCollectionManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".instruction"
+            android:exported="false" />
+        <activity
+            android:name=".descmangalist"
+            android:exported="false" />
+        <activity
+            android:name=".statistic"
+            android:exported="false" />
+        <activity
+            android:name=".deleteaccountsetting"
+            android:exported="false" />
+        <activity
+            android:name=".assesementsetting"
+            android:exported="false" />
+        <activity
+            android:name=".reportsetting"
+            android:exported="false" />
+        <activity
+            android:name=".accountsetting"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".publisherinformation"
+            android:exported="false" />
+        <activity
+            android:name=".authorinformation"
+            android:exported="false" />
+        <activity
+            android:name=".detailpublisher"
+            android:exported="false" />
+        <activity
+            android:name=".detailauthor"
+            android:exported="false" />
+        <activity
+            android:name=".collectioninformation"
+            android:exported="false" />
+        <activity
+            android:name=".mangainformation"
+            android:exported="false" />
+        <activity
+            android:name=".detailmanga"
+            android:exported="false" />
+        <activity
+            android:name=".detailcollection"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

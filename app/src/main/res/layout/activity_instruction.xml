@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".instruction">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/linearlayout_border"
+        android:padding="10dp"
+        android:text="HƯỚNG DẪN SỬ DỤNG"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+
+
+            <TextView
+                android:id="@+id/txtInstroduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/linearlayout_border"
+                android:drawableRight="@drawable/ic_add"
+                android:padding="10dp"
+                android:text="Giới thiệu"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtContent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/linearlayout_border"
+                android:padding="15dp"
+                android:text="Ứng dụng quản lý bộ sưu tập truyện tranh cá nhân được tạo ra với mục đich là nơi lưu trữ, quản lý thông tin và thống kê cho bộ sưu tập của bạn. Ứng dụng chủ yếu tập trung vào các bộ sưu tập truyện tranh manga (truyện tranh Nhật Bản)."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/txtFunction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/linearlayout_border"
+                android:drawableRight="@drawable/ic_add"
+                android:padding="10dp"
+                android:text="Tính năng"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtContent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/linearlayout_border"
+                android:padding="15dp"
+                android:text="Ứng dụng quản lý bộ sưu tập truyện tranh cá nhân được tạo ra với mục đich là nơi lưu trữ thông tin và thống kê cho bộ sưu tập của bạn. Ứng dụng chủ yếu tập trung vào các bộ sưu tập truyện tranh manga (truyện tranh Nhật Bản)."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/txtInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/linearlayout_border"
+                android:drawableRight="@drawable/ic_add"
+                android:padding="10dp"
+                android:text="Cách sử dụng"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtContent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/linearlayout_border"
+                android:padding="15dp"
+                android:text="Ứng dụng quản lý bộ sưu tập truyện tranh cá nhân được tạo ra với mục đich là nơi lưu trữ, quản lý thông tin và thống kê cho bộ sưu tập của bạn. Ứng dụng chủ yếu tập trung vào các bộ sưu tập truyện tranh manga (truyện tranh Nhật Bản)."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

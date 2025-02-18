@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Trang chủ" />
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/Collection"
+            android:icon="@drawable/baseline_collections_24"
+            android:title="Bộ sưu tập" />
+        <item
+            android:id="@+id/Authors"
+            android:icon="@drawable/ic_people"
+            android:title="Tác giả" />
+        <item
+            android:id="@+id/Publishers"
+            android:icon="@drawable/baseline_factory_24"
+            android:title="Nhà xuất bản" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/Statistics"
+            android:icon="@drawable/baseline_bar_chart_24"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/Setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Cài đặt" />
+    </group>
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Đăng xuất" />
+    </group>
+
+</menu>

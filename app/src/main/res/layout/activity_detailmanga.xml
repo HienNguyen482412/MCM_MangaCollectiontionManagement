@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detailmanga">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <EditText
+                android:id="@+id/edtChapterNumber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/linearlayout_border"
+                android:hint="Số tập"
+                android:paddingLeft="10dp"
+                android:layout_weight="2"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btnSearchDate"
+                style="?android:spinnerStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3"
+                android:background="@drawable/linearlayout_border"
+                android:text="13/11/2024"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:backgroundTint="@null" />
+
+            <ImageButton
+                android:id="@+id/btnMangaSearch"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:background="@drawable/linearlayout_border"
+                android:src="@drawable/ic_search_black"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imgMangaBackground"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/noitembg"
+            android:visibility="gone"
+            />
+        <ListView
+            android:id="@+id/lvManga"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btnAddManga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add" />
+    </LinearLayout>
+</LinearLayout>
