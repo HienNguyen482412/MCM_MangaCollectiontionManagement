@@ -12,8 +12,8 @@ android {
         applicationId = "com.example.mcm_mangacollectionmanagement"
         minSdk = 24
         targetSdk = 34
-        versionCode = 8
-        versionName = "1.8"
+        versionCode = 10
+        versionName = "1.10"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

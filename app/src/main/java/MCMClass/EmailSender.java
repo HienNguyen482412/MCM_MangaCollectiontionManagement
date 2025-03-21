@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public class EmailSender {
     private static final String EMAIL = "hibarikyoya2k4@gmail.com";
-    private static final String PASSWORD = "kcuc mdep xotz riqe";
+    private static final String PASSWORD = "zpcz ctqj fdcj fppy";
 
     public static void sendEmail(String to, String subject, String body) {
         new Thread(() -> {
